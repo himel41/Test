@@ -4,6 +4,7 @@ import { Image, Nav, Link, Navbar, Container, Row } from 'react-bootstrap';
 import Logo from '../../../Images/logo.png';
 
 import './nav.css';
+import { FaUserCircle } from "react-icons/fa";
 
 
 function nav() {
@@ -18,6 +19,7 @@ function nav() {
             <Nav className="ms-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">Link</Nav.Link>
+              <Nav.Link href="#">Login / Signup <FaUserCircle /> </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
